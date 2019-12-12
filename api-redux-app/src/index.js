@@ -9,7 +9,7 @@ import thunk from "redux-thunk";
 import App from "./App";
 
 //Creating store for state data
-export const store = createStore(reducer, applyMiddleware(thunk));
+const store = createStore(reducer, applyMiddleware(thunk));
 
 ReactDOM.render(
   <Provider store={store}>

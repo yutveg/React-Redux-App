@@ -7,7 +7,7 @@ const Platter = props => {
   useEffect(() => props.getCiv(props.queryID), [props.queryID]);
 
   return (
-    <div>
+    <div className="platter">
       <h1>Civilization Navigation</h1>
       <button onClick={props.prevCiv}>Prev</button>
       {!props.civData && !props.isFetching && (

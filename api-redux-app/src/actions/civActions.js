@@ -14,9 +14,11 @@ export const getCiv = queryID => dispatch => {
       `https://cors-anywhere.herokuapp.com/https://age-of-empires-2-api.herokuapp.com/api/v1/civilization/${queryID}`
     )
     .then(res => {
+      console.log(res);
       dispatch({ type: FETCH_CIV_SUCCESS, payload: res.data });
     })
     .catch(err => {
+      console.log(err);
       dispatch({ type: FETCH_CIV_FAILURE, payload: err.response });
     });
 };

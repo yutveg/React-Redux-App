@@ -13,7 +13,12 @@ const Platter = props => {
       {!props.civData && !props.isFetching && (
         <p>something went terribly wrong..</p>
       )}
-      {props.isFetching && <p>one moment please..</p>}
+      {props.isFetching && (
+        <span>
+          <br />
+          one moment please..
+        </span>
+      )}
       {props.civData && <CivCard civData={props.civData} />}
       <button onClick={props.nextCiv}>Next</button>
     </div>

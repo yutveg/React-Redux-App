@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
 
 html {
   font-size: 62.5%;
@@ -12,6 +12,7 @@ html {
 }
 
 .platter {
+  font-family: "Kaushan Script", cursive;
   background-image: url("./assets/platterbackgr.jpg");
   padding: 0 0 1% 0;
   height: 600px;
@@ -34,6 +35,8 @@ html {
 }
 
 .platter button {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.6rem;
   padding: 0.5% 3%;
   background-image: linear-gradient(315deg, #a55c1b 0%, #000000 94%);
   border: 1px rgb(116, 116, 116) solid;
@@ -41,7 +44,7 @@ html {
 }
 
 .civ-card {
-  font-family: "Satisfy", cursive;
+  width: 65%;
   line-height: 0.75;
   margin: 1% auto;
   background-image: url(./assets/scroll.gif);

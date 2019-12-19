@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
+
+html {
+  font-size: 62.5%;
+  background-image: url("assets/bodybackgr.jpg");
+}
+
+.App {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+.platter {
+  font-family: "Kaushan Script", cursive;
+  background-image: url("./assets/platterbackgr.jpg");
+  padding: 0 0 1% 0;
+  height: 600px;
+  margin-top: 10%;
+}
+
+.platter span {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.platter h1 {
+  padding: 1% 0;
+  font-size: 4.3rem;
+  background-image: linear-gradient(
+    179.5deg,
+    rgba(255, 230, 69, 1) 3.3%,
+    rgba(255, 157, 73, 1) 96%
+  );
+}
+
+.platter button {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.6rem;
+  padding: 0.5% 3%;
+  background-image: linear-gradient(315deg, #a55c1b 0%, #000000 94%);
+  border: 1px rgb(116, 116, 116) solid;
+  color: white;
+}
+
+.civ-card {
+  width: 65%;
+  line-height: 0.75;
+  margin: 1% auto;
+  background-image: url(./assets/scroll.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1% 2%;
+}
+
+.civ-card h1 {
+  font-size: 3.2rem;
+  background-image: none;
+}
+
+.civ-card h2 {
+  font-size: 3rem;
+}
+
+.civ-card h3 {
+  font-size: 2.5rem;
+}
+
+.civ-card p {
+  font-size: 1.6rem;
+}

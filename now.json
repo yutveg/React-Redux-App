@@ -1,8 +1,8 @@
 {
     "version": 2,
-    "name": "project-name",
-    "builds": [{ "src": "project-name/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "name": "api-redux-app",
+    "builds": [{ "src": "api-redux-app/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
     "routes": [
-        { "src": "/(.*)", "dest": "project-name/$1" }
+        { "src": "/(.*)", "dest": "api-redux-app/$1" }
     ]
 }
